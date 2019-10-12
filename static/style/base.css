@@ -1,0 +1,195 @@
+/*初始化*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration:none;
+}
+
+html{
+  font-size: 625%;
+  background: #061B3B;
+  min-width: 1250px;
+  min-height: 704px;
+}
+body {
+  width: 100vw;
+  height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+body::-webkit-scrollbar{
+  width: 0 !important
+}
+/*@media (max-device-width:960px) {*/
+/*  body {*/
+/*    -webkit-text-size-adjust: none*/
+/*  }*/
+/*}*/
+@media (max-width: 1280px) {
+  html{
+    font-size: 405%;
+  }
+}
+@media (min-width: 1281px) and (max-width: 1300px) {
+  html{
+    font-size: 410%;
+  }
+}
+@media (min-width: 1301px) and (max-width: 1360px) {
+  html{
+    font-size: 425%;
+  }
+}
+@media (min-width: 1361px) and (max-width: 1400px) {
+  html{
+    font-size: 440%;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1480px) {
+  html{
+    font-size: 450%;
+  }
+}
+@media (min-width: 1481px) and (max-width: 1560px) {
+  html{
+    font-size: 480%;
+  }
+}
+@media (min-width: 1561px) and (max-width: 1640px) {
+  html{
+    font-size: 510%;
+  }
+}
+@media (min-width: 1641px) and (max-width: 1720px) {
+  html{
+    font-size: 535%;
+  }
+}
+@media (min-width: 1721px) and (max-width: 1800px) {
+  html{
+    font-size: 560%;
+  }
+}
+@media (min-width: 1801px) and (max-width: 1880px) {
+  html{
+    font-size: 590%;
+  }
+}
+@media (min-width: 1881px) and (max-width: 1960px) {
+  html{
+    font-size: 610%;
+  }
+}
+@media (min-width: 1961px) and (max-width: 2040px) {
+  html{
+    font-size: 640%;
+  }
+}
+@media (min-width: 2041px) and (max-width: 2120px) {
+  html{
+    font-size: 665%;
+  }
+}
+@media (min-width: 2121px) and (max-width: 2200px) {
+  html{
+    font-size: 690%;
+  }
+}
+@media (min-width: 2201px) and (max-width: 2280px) {
+  html{
+    font-size: 720%;
+  }
+}
+@media (min-width: 2281px) and (max-width: 2360px) {
+  html{
+    font-size: 740%;
+  }
+}
+@media (min-width: 2361px) and (max-width: 2440px) {
+  html{
+    font-size: 770%;
+  }
+}
+@media (min-width: 2441px) and (max-width: 2520px) {
+  html{
+    font-size: 800%;
+  }
+}
+@media (min-width: 2521px) and (max-width: 2600px) {
+  html{
+    font-size: 825%;
+  }
+}
+
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+/*盒模型重置*/
+*::before,
+*::after {
+  box-sizing: inherit !important;
+}
+
+/*禁用a标签样式*/
+a.disabled {
+  pointer-events: none;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
+/*去除选中框*/
+button:focus {
+  outline: none;
+}
+input:focus, textarea:focus {
+  outline: none;
+}
+
+/*清除input历史记录背景色*/
+input:-webkit-autofill {
+  background-color: #FAFFBD;
+  background-image: none;
+  color: #000;
+}
+
+.com-flex{
+  display: flex;
+  align-items: center;
+}
+.com-inline-flex{
+  display: inline-flex;
+  align-items: center;
+}
+
+
+/*公用样式*/
+
+/*盒子标题 - 左*/
+.left_title{
+  font-size: .18rem;
+  color:rgba(255,255,255,1);
+  padding: 0 0 .2rem .25rem;
+  font-family: viewTitleFont, sans-serif;
+}
+/*盒子标题 - 左 - 小盒子*/
+.left_title.min_box{
+  font-size: .18rem;
+  color:rgba(255,255,255,1);
+  padding: 0 0 .2rem .26rem;
+}
+
+/*盒子标题 - 右*/
+.right_title{
+  text-align: right;
+  font-size: .18rem;
+  color:rgba(255,255,255,1);
+  padding: 0 .3rem .2rem 0;
+  font-family: viewTitleFont, sans-serif;
+}
